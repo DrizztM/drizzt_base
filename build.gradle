@@ -8,6 +8,7 @@ sourceCompatibility = 1.8   // 设置 JDK 版本
 webAppDirName = 'web'    // 设置 WebApp 根目录 
 sourceSets.main.java.srcDir 'src'   // 设置 Java 源码所在目录 
 sourceSets.main.java.srcDir 'test'   // 设置 Java 源码所在目录 
+sourceSets.main.output.classesDir 'web/WEB-INF/classes'  //设置class生成路径
 
 repositories {
 	maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
